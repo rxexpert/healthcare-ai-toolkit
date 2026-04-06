@@ -22,7 +22,7 @@ Follow these steps to create the meeting minutes:
     *   If a video or audio recording is provided, use it to clarify any ambiguities in the transcript.
 
 2.  **Handle Multiple Transcripts:**
-    *   If multiple transcripts are provided (e.g., VTT and SRT), read both and reconcile them to create the most accurate version. Refer to `/home/ubuntu/skills/committee-meeting-minutes-writer/references/transcript_handling.md` for guidance on reconciling different transcript formats.
+    *   If multiple transcripts are provided (e.g., VTT and SRT), read both and reconcile them to create the most accurate version. See [references/transcript_handling.md] for guidance on reconciling different transcript formats.
 
 3.  **Handle Missing Agenda:**
     *   If no agenda is provided, analyze the transcript and recording to identify the main topics of discussion and create a de facto agenda.
@@ -32,7 +32,7 @@ Follow these steps to create the meeting minutes:
     *   If the attendance report is incomplete or missing, extract participant names from the transcript.
 
 5.  **Draft the Meeting Minutes:**
-    *   Use the template provided in `/home/ubuntu/skills/committee-meeting-minutes-writer/templates/meeting_minutes_template.md` to structure the minutes.
+    *   Use the template provided in [assets/meeting_minutes_template.md] to structure the minutes.
     *   Fill in the header information, participants table, and the main content section with the information gathered from the input files.
     *   Ensure that the minutes are detailed, accurate, and professionally formatted.
 
@@ -52,5 +52,3 @@ This skill is designed to work with the following input files:
 ## Output Format
 
 The final output should be a single Markdown file (`.md`) following the structure defined in the template.
-
-
